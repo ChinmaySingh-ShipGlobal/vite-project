@@ -1,11 +1,14 @@
-
+import Navbar from "./Components/Navbar"
+import Content from "./Components/Content"
+import Form from "./Components/Form"
 
 function App() {
-
   return (
     <>
-    <h1>Hello World</h1>
-      </>
+      <Navbar/>
+      <Content/>
+      <Form/>
+    </>
   )
 }
 
